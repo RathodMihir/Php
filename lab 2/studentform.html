@@ -1,0 +1,110 @@
+
+<html>
+<head>
+  
+  <title>Student Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: left;
+    }
+
+    form {
+      max-width: 600px;
+      
+    }
+
+    table {
+      width: 100%;
+    }
+
+    textarea {
+      height: 80px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>Student Registration Form</h2>
+
+  <form>
+    <table>
+     <tr>
+        <td><label for="name">Full Name:</label></td>
+        <td><input type="text" placeholder="Enter Full Name"></td>
+    </tr>
+
+      <tr>
+        <td><label for="email">Email Address:</label></td>
+        <td><input type="email" placeholder="Enter Email"></td>
+      </tr>
+
+        <tr>
+        <td><label for="phone">Phone Number:</label></td>
+        <td><input type="tel" placeholder="Enter Mobile No."></td>
+        </tr>
+
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" name="gender"> <label for="male">Male</label>
+          <input type="radio" name="gender"> <label for="female">Female</label>
+          <input type="radio" name="gender"> <label for="other">Other</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="semester">Semester:</label></td>
+        <td>
+          <select>
+            <option>-- Select Semester --</option>
+            <option>1st</option>
+            <option>2nd</option>
+            <option>3rd</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="branch">Branch:</label></td>
+        <td>
+          <select>
+            <option>-- Select Branch --</option>
+            <option>Computer Science</option>
+           
+
+            <option>Mechanical</option>
+            <option>Civil</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><textarea id="address" placeholder="Enter Address"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Hobbies (Select multiple):</td>
+        <td>
+          <input type="checkbox"> <label for="reading">Reading</label><br>
+          <input type="checkbox"> <label for="sports">Sports</label><br>
+          <input type="checkbox"> <label for="music">Music</label><br>
+          <input type="checkbox"> <label for="travel">Traveling</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center"></td>
+        <td><input type="submit" value="Register"></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
